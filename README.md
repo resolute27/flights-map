@@ -43,10 +43,13 @@ python -m backend.import_airports
 
 開兩個 Terminal
 
-### ✅ 啟動後端（FastAPI）
+### ✅ 啟動後端
 
 ```bash
-fastapi dev backend/main.py
+cd backend
+pnpm i
+pnpm approve-builds
+pnpm dev
 ```
 
 

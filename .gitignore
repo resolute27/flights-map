@@ -28,3 +28,4 @@ __pycache__
 *.db-shm
 *.db-wal
 .venv
+node_modules
